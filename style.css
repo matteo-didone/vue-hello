@@ -14,6 +14,13 @@
     text-align: center;
 }
 
+.image-class
+{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
 h1 
 {
     margin-bottom: 20px;

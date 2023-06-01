@@ -1,3 +1,16 @@
-//Stampare a schermo un messaggio all’interno di un h1, utilizzando i data.
-//BONUS aggiungere un’immagine presa anch’essa da un data
+// Print a message on the screen within an h1 tag, using data.
+// BONUS: Add an image taken from data as well.
 
+(() => {
+const { createApp } = Vue;
+
+createApp({
+    data() {
+        return {
+            message: 'Hello, Vue!',
+            image: 'https://picsum.photos/200/300'
+        }
+    }
+}).mount('#app')
+
+})();
